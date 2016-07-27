@@ -26,8 +26,8 @@ end
 
 puts "Tell me something."
 phrase = gets.chomp
-puts "Tell me one number."
-n = gets.chomp.to_i
-puts solve_cipher(phrase, n)
+#puts "Tell me one number."
+#n = gets.chomp.to_i
+puts solve_cipher(phrase, -3)
 
 binding.pry
